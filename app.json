@@ -1,15 +1,18 @@
 {
   "expo": {
-    "name": "-toduodondefinedo",
-    "slug": "-toduodondefinedo",
+    "name": "todo",
+    "slug": "todo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+
+    "backgroundColor":"#3C4951",
+    
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#E9EBED"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,7 +26,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#E9EBED"
       }
     },
     "web": {
