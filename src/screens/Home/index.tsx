@@ -20,10 +20,9 @@ export function Home() {
 
   function handleTaskAdd(text: string) {
     if (task == "") {
-      Alert.alert('',
-      `
-      📝    Adicione uma tarefa    📝
-`, [
+      Alert.alert(
+      `      
+📝  Adicione uma tarefa`,'', [
         {
           text: 'Ok',
           style: 'cancel'
@@ -54,9 +53,11 @@ export function Home() {
 
   function handleTaskRemove(id: string, text: string) {
     Alert.alert(
-      "Deseja excluir?",
       `
-❌ ${text}
+
+✖️  Deseja excluir ?`,
+      `
+${text}
 `,
       [
         {
